@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function bigImg(x) {
+  x.style.height = "500px";
+  x.style.width = "400px";
+}
+
+function normalImg(x) {
+  x.style.height = "200px";
+  x.style.width = "100px";
+}
+
+
+    </script>
+</head>
+<body>
+    <h1 onmouseover="style.color='red'" onmouseout="style.color='blue'"> Smiley face</h1>
+
+<center> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="smiley.gif" alt="Smiley" width="100px" height="200px"> </center>
+<p> the smiley face is used to show happiness when your happy</p>
+</body>
+</html>
